@@ -18,7 +18,7 @@ public class RecDemo extends java.lang.Object{
 	}
 	
 	/**
-	 * 
+	 * Determine the fibonacci number for the given parameter.
 	 * @param n - is the int whose fibonacci sequence is to be computed. n is never negative
 	 * @return fibonacci number for n.
 	 */
@@ -27,7 +27,8 @@ public class RecDemo extends java.lang.Object{
 	}
 	
 	/**
-	 * 
+	 * Determine if the given String is a palindrome, 
+	 * 	by looking only at the first and last character of the String.
 	 * @param s - is string to analyze
 	 * @return true if s is palindrome, false else
 	 */
@@ -36,7 +37,7 @@ public class RecDemo extends java.lang.Object{
 	}
 	
 	/**
-	 * Create a palidrome of the form "xxx$xxx" where the 
+	 * Create a palindrome of the form "xxx$xxx" where the 
 	 * number of x's before and after the $ are equal to the given parameter.
 	 * @param n - number of x's on each side of the $. n is never negative
 	 * @return the palindrome
