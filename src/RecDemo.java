@@ -8,7 +8,7 @@ public class RecDemo {
 	/**
 	 * Do not allow instantiation of constructor
 	 */
-	public RecDemo() {
+	private RecDemo() {
 		// no instantiation of constructor
 	}
 
