@@ -35,8 +35,9 @@ public class RecDemoTest {
 
 	@Test
 	public void testIsPalNotTrueLongWord() {
+		String s = "Hippopotomaus";
 		Boolean expected = true;
-		Boolean actual   = RecDemo.isPal("Hippopotomaus");
+		Boolean actual   = RecDemo.isPal(s);
 		assertEquals( "Hippopotomaus is not a Palendrome", expected, actual);
 	}
 	
