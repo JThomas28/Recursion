@@ -79,7 +79,7 @@ public class RecDemoTest {
 		String actual = RecDemo.mkPal(0);
 		assertEquals(expected, actual);
 	}
-	public void testMkPal1() {
+	public void testMkPalOne() {
 		String expected = "x$x";
 		String actual = RecDemo.mkPal(1);
 		assertEquals(expected, actual);
