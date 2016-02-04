@@ -1,10 +1,15 @@
-public class RecDemo extends java.lang.Object {
+/**
+ * This class contains a few recursive methods
+ * @author JonathanThomas
+ * @version 2/5/2016
+ */
+public class RecDemo {
 
 	/**
 	 * Do not allow instantiation of this class
 	 */
 	public RecDemo() {
-
+		//no instantiation of constructor
 	}
 	
 	/**
