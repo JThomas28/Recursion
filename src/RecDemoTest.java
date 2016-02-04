@@ -30,9 +30,18 @@ public class RecDemoTest {
 	}
 
 	@Test
-	public void testFibonacci() {
-		fail("Not yet implemented");
+	public void testFibonacciOfZero() {
+		int expected = 0;
+		int actual = RecDemo.fibonacci(0);
+		assertEquals("Fibonacci of 0 is 0", expected, actual);
 	}
+	@Test
+	public void testFibonacciOfOne() {
+		int expected = 1;
+		int actual = RecDemo.fibonacci(1);
+		assertEquals("Fibonacci of 1 is 1", expected, actual);
+	}
+	
 
 	@Test
 	public void testIsPalTrue() {
