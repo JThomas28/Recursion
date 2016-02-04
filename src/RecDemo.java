@@ -6,7 +6,7 @@ public class RecDemo extends java.lang.Object {
 	public RecDemo() {
 
 	}
-
+	
 	/**
 	 * Calculate factorial of given parameter. 0! = 1
 	 * 
