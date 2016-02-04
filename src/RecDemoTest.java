@@ -39,7 +39,19 @@ public class RecDemoTest {
 	public void testFibonacciOfOne() {
 		int expected = 1;
 		int actual = RecDemo.fibonacci(1);
-		assertEquals("Fibonacci of 1 is 1", expected, actual);
+		assertEquals(expected, actual);
+	}
+	@Test
+	public void testFibonacciOfThree() {
+		int expected = 2;
+		int actual = RecDemo.fibonacci(3);
+		assertEquals(expected, actual);
+	}
+	@Test
+	public void testFibonacciOfBigNumber() {
+		int expected = 34;
+		int actual = RecDemo.fibonacci(9);
+		assertEquals(expected, actual);
 	}
 	
 
