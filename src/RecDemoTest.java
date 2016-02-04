@@ -94,7 +94,7 @@ public class RecDemoTest {
 
 	@Test
 	public void testObject() {
-		fail("Not yet implemented");
+		RecDemo demo = new RecDemo();
 	}
 
 }
