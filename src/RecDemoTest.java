@@ -5,11 +5,6 @@ import org.junit.Test;
 
 public class RecDemoTest {
 
-//	@Test
-//	public void testRecDemo() {
-//		fail("Not yet implemented");
-//	}
-
 	@Test
 	public void testFactorialZero() {
 		int expected = 1;
