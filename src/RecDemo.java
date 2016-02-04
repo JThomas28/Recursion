@@ -6,7 +6,7 @@
  */
 public class RecDemo {
 
-	/**
+	 /**
 	 * Do not allow instantiation of this class
 	 **/
 	public RecDemo() {
