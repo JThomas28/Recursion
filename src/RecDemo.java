@@ -33,7 +33,12 @@ public class RecDemo extends java.lang.Object {
 	 * @return fibonacci number for n.
 	 */
 	public static int fibonacci(int n) {
-		return 0;
+		if(n==1 || n==2){
+			return 1;
+		}
+		else{
+			return (fibonacci(n-1));
+		}
 	}
 
 	/**
@@ -66,6 +71,7 @@ public class RecDemo extends java.lang.Object {
 	 * @return the palindrome
 	 */
 	public static java.lang.String mkPal(int n) {
+		
 		return "";
 	}
 }
