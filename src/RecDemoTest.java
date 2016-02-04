@@ -16,6 +16,12 @@ public class RecDemoTest {
 		int actual = RecDemo.factorial(0);
 		assertEquals("Factorial of 0 is 1", expected, actual);
 	}
+	@Test
+	public void testFactorial1() {
+		int expected = 1;
+		int actual = RecDemo.factorial(1);
+		assertEquals("Factorial of 1 is 1", expected, actual);
+	}
 
 	@Test
 	public void testFibonacci() {
