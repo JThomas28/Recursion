@@ -71,7 +71,7 @@ public class RecDemoTest {
 	@Test
 	public void testMkPalZero() {
 		String expected = "$";
-		String actual = RecDemo.mkPal(0);
+		String actual = this.mkPal(0);
 		assertEquals(expected, actual);
 	}
 	@Test
