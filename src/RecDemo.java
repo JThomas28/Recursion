@@ -4,7 +4,7 @@ public class RecDemo extends java.lang.Object {
 	 * Do not allow instantiation of this class
 	 */
 	public RecDemo() {
-
+		
 	}
 
 	/**
