@@ -11,8 +11,10 @@ public class RecDemoTest {
 	}
 
 	@Test
-	public void testFactorial() {
-		fail("Not yet implemented");
+	public void testFactorialZero() {
+		int expected = 1;
+		int actual = RecDemo.factorial(0);
+		assertEquals("Factorial of 0 is 1", expected, actual);
 	}
 
 	@Test
@@ -21,11 +23,10 @@ public class RecDemoTest {
 	}
 
 	@Test
-	public void testIsPal() {
-		//RecDemo recdemo = new RecDemo();
-		Boolean result = RecDemo.isPal("racecar");
-		assertEquals(true, result);
-		//fail("Not yet implemented");
+	public void testIsPalTrue() {
+		Boolean actual = RecDemo.isPal("racecar");
+		assertEquals(true, actual);
+		
 	}
 	@Test
 	public void testIsPalOneLetter() {
@@ -35,10 +36,8 @@ public class RecDemoTest {
 
 	@Test
 	public void testIsPalNotTrueLongWord() {
-		String s = "Hippopotomaus";
-		Boolean expected = false;
-		Boolean actual   = RecDemo.isPal(s);
-		assertEquals( "Hippopotomaus is not a Palendrome", expected, actual);
+		Boolean actual   = RecDemo.isPal("Hippopotamus");
+		assertEquals( "Hippopotamus is not a Palendrome", false, actual);
 	}
 	
 	@Test
