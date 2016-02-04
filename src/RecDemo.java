@@ -4,11 +4,11 @@
  * @version 2/5/2016
  */
 public class RecDemo {
-
+	
 	/**
 	 * Do not allow instantiation of this class
-	 */
-	public RecDemo() {
+	 **/
+	private RecDemo() {
 		//no instantiation of constructor
 	}
 	
