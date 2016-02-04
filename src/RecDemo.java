@@ -4,7 +4,7 @@ public class RecDemo extends java.lang.Object {
 	 * Do not allow instantiation of this class
 	 */
 	public RecDemo() {
-		
+
 	}
 
 	/**
@@ -33,14 +33,14 @@ public class RecDemo extends java.lang.Object {
 	 * @return fibonacci number for n.
 	 */
 	public static int fibonacci(int n) {
-		if(n==0){
+		if (n == 0) {
 			return 0;
 		}
-		else if(n==1 || n==2){
+		else if (n == 1 || n == 2) {
 			return 1;
 		}
-		else{
-			return (fibonacci(n-1) + fibonacci(n-2));
+		else {
+			return (fibonacci(n - 1) + fibonacci(n - 2));
 		}
 	}
 
@@ -56,7 +56,7 @@ public class RecDemo extends java.lang.Object {
 		if (s.length() == 1) {
 			return true;
 		}
-		else if (s.charAt(0) == s.charAt(s.length()-1)) {
+		else if (s.charAt(0) == s.charAt(s.length() - 1)) {
 			// if first letter is same as last
 			return isPal(s.substring(1, s.length() - 1));
 		}
@@ -74,13 +74,11 @@ public class RecDemo extends java.lang.Object {
 	 * @return the palindrome
 	 */
 	public static java.lang.String mkPal(int n) {
-		if(n==0){
+		if (n == 0) {
 			return "$";
 		}
 		else {
-			
+			return ("x"+mkPal(n-1)+"x");
 		}
-		
-		return "";
 	}
 }
