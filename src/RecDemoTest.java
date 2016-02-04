@@ -34,6 +34,12 @@ public class RecDemoTest {
 	}
 
 	@Test
+	public void testIsPalNotTrueLongWord() {
+		Boolean actual = RecDemo.isPal("Hippopotamus");
+		assertEquals(true, actual);
+	}
+	
+	@Test
 	public void testMkPal() {
 		fail("Not yet implemented");
 	}
