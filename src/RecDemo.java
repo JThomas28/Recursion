@@ -1,17 +1,18 @@
 /**
  * This class contains a few recursive methods
+ * 
  * @author JonathanThomas
  * @version 2/5/2016
  */
 public class RecDemo {
-	
+
 	/**
 	 * Do not allow instantiation of this class
 	 **/
 	public RecDemo() {
-		//no instantiation of constructor
+		// no instantiation of constructor
 	}
-	
+
 	/**
 	 * Calculate factorial of given parameter. 0! = 1
 	 * 
@@ -83,7 +84,7 @@ public class RecDemo {
 			return "$";
 		}
 		else {
-			return ("x"+mkPal(n-1)+"x");
+			return ("x" + mkPal(n - 1) + "x");
 		}
 	}
 }
