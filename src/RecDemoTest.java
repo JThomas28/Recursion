@@ -74,8 +74,20 @@ public class RecDemoTest {
 	}
 	
 	@Test
-	public void testMkPal() {
-		fail("Not yet implemented");
+	public void testMkPalZero() {
+		String expected = "$";
+		String actual = RecDemo.mkPal(0);
+		assertEquals(expected, actual);
+	}
+	public void testMkPal1() {
+		String expected = "x$x";
+		String actual = RecDemo.mkPal(1);
+		assertEquals(expected, actual);
+	}
+	public void testMkPalFive() {
+		String expected = "xxxxx$xxxxx";
+		String actual = RecDemo.mkPal(5);
+		assertEquals(expected, actual);
 	}
 
 	@Test
