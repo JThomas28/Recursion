@@ -22,6 +22,12 @@ public class RecDemoTest {
 		int actual = RecDemo.factorial(1);
 		assertEquals("Factorial of 1 is 1", expected, actual);
 	}
+	@Test
+	public void testFactorialLargeNumber() {
+		int expected = 362880;
+		int actual = RecDemo.factorial(9);
+		assertEquals("Factorial of 9 is 362880", expected, actual);
+	}
 
 	@Test
 	public void testFibonacci() {
