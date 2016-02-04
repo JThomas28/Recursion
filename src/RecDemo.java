@@ -18,7 +18,8 @@ public class RecDemo extends java.lang.Object {
 	public static int factorial(int n) {
 		if (n == 0) {
 			return 1;
-		} else {
+		}
+		else {
 			return (n * factorial(n - 1));
 		}
 	}
@@ -46,11 +47,11 @@ public class RecDemo extends java.lang.Object {
 	public static boolean isPal(java.lang.String s) {
 		if (s.length() == 1) {
 			return true;
-		} 
+		}
 		else if (s.charAt(0) == s.charAt(s.length())) {
 			// if first letter is same as last
 			return isPal(s.substring(1, s.length() - 1));
-		} 
+		}
 		else {
 			return false;
 		}
