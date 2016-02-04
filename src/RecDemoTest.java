@@ -5,10 +5,10 @@ import org.junit.Test;
 
 public class RecDemoTest {
 
-	@Test
-	public void testRecDemo() {
-		fail("Not yet implemented");
-	}
+//	@Test
+//	public void testRecDemo() {
+//		fail("Not yet implemented");
+//	}
 
 	@Test
 	public void testFactorialZero() {
@@ -58,19 +58,19 @@ public class RecDemoTest {
 	@Test
 	public void testIsPalTrue() {
 		Boolean actual = RecDemo.isPal("racecar");
-		assertEquals(true, actual);
+		assertTrue(actual);
 		
 	}
 	@Test
 	public void testIsPalOneLetter() {
 		Boolean actual = RecDemo.isPal("A");
-		assertEquals(true, actual);
+		assertTrue(actual);
 	}
 
 	@Test
 	public void testIsPalNotTrueLongWord() {
 		Boolean actual   = RecDemo.isPal("Hippopotamus");
-		assertEquals( "Hippopotamus is not a Palendrome", false, actual);
+		assertFalse( "Hippopotamus is not a Palendrome", actual);
 	}
 	
 	@Test
@@ -94,7 +94,7 @@ public class RecDemoTest {
 
 	@Test
 	public void testObject() {
-		RecDemo demo = new RecDemo();
+		new RecDemo();
 	}
 
 }
