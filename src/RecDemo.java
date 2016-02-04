@@ -14,7 +14,12 @@ public class RecDemo extends java.lang.Object{
 	 * @return n!
 	 */
 	public static int factorial(int n){
-		return 0;
+		if(n==0){
+			return 1;
+		}
+		else{
+			return (n*factorial(n-1));
+		}
 	}
 	
 	/**
