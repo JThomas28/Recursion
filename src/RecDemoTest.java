@@ -27,6 +27,11 @@ public class RecDemoTest {
 		assertEquals(true, result);
 		//fail("Not yet implemented");
 	}
+	@Test
+	public void testIsPalOneLetter() {
+		Boolean actual = RecDemo.isPal("A");
+		assertEquals(true, actual);
+	}
 
 	@Test
 	public void testMkPal() {
