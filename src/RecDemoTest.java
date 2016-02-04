@@ -25,7 +25,7 @@ public class RecDemoTest {
 		//RecDemo recdemo = new RecDemo();
 		Boolean result = RecDemo.isPal("racecar");
 		assertEquals(true, result);
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 
 	@Test
