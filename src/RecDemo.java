@@ -38,7 +38,16 @@ public class RecDemo extends java.lang.Object{
 	 * @return true if s is palindrome, false else
 	 */
 	public static boolean isPal(java.lang.String s){
-		return true;
+			if(s.length() == 1){
+				return true;
+			}
+			else if(s.charAt(0) == s.charAt(s.length())){
+				//if first letter is same as last
+				return isPal(s.substring(1,s.length()-1));
+			}
+			else{
+				return false;
+			}
 	}
 	
 	/**
