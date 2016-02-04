@@ -74,6 +74,12 @@ public class RecDemo extends java.lang.Object {
 	 * @return the palindrome
 	 */
 	public static java.lang.String mkPal(int n) {
+		if(n==0){
+			return "$";
+		}
+		else {
+			
+		}
 		
 		return "";
 	}
